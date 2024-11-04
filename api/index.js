@@ -10,7 +10,7 @@ const customerRoutes = require("./routes/customerRoutes");
 
 mongoose
   .connect(
-    "mongodb+srv://saifullahafridi08:zamayarasaran@cluster0.0z9nxtz.mongodb.net/data?retryWrites=true&w=majority&appName=Cluster0"
+    "DB_URI"
   )
   .then(() => {
     console.log("connected to database successfully");
